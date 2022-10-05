@@ -1,0 +1,328 @@
+{
+	"id": "518a181336db20866a74059513345080",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.7",
+	"solcLongVersion": "0.8.7+commit.e28d00a7",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"mapping.sol": {
+				"content": "// SPDX-License-Identifier: GPL-3.0\r\n\r\npragma solidity >= 0.5.0 < 0.9.0;\r\n\r\ncontract map{\r\n    \r\n}"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"contracts": {
+			"mapping.sol": {
+				"map": {
+					"abi": [],
+					"devdoc": {
+						"kind": "dev",
+						"methods": {},
+						"version": 1
+					},
+					"evm": {
+						"assembly": "    /* \"mapping.sol\":76:98  contract map{\r... */\n  mstore(0x40, 0x80)\n  callvalue\n  dup1\n  iszero\n  tag_1\n  jumpi\n  0x00\n  dup1\n  revert\ntag_1:\n  pop\n  dataSize(sub_0)\n  dup1\n  dataOffset(sub_0)\n  0x00\n  codecopy\n  0x00\n  return\nstop\n\nsub_0: assembly {\n        /* \"mapping.sol\":76:98  contract map{\r... */\n      mstore(0x40, 0x80)\n      0x00\n      dup1\n      revert\n\n    auxdata: 0xa264697066735822122076d9c3438b250141b7aeca87a06907f05e0416da1b968bb4411b751bc987652d64736f6c63430008070033\n}\n",
+						"bytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"linkReferences": {},
+							"object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122076d9c3438b250141b7aeca87a06907f05e0416da1b968bb4411b751bc987652d64736f6c63430008070033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 PUSH23 0xD9C3438B250141B7AECA87A06907F05E0416DA1B968BB4 COINBASE SHL PUSH22 0x1BC987652D64736F6C63430008070033000000000000 ",
+							"sourceMap": "76:22:0:-:0;;;;;;;;;;;;;;;;;;;"
+						},
+						"deployedBytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"immutableReferences": {},
+							"linkReferences": {},
+							"object": "6080604052600080fdfea264697066735822122076d9c3438b250141b7aeca87a06907f05e0416da1b968bb4411b751bc987652d64736f6c63430008070033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 PUSH23 0xD9C3438B250141B7AECA87A06907F05E0416DA1B968BB4 COINBASE SHL PUSH22 0x1BC987652D64736F6C63430008070033000000000000 ",
+							"sourceMap": "76:22:0:-:0;;;;;"
+						},
+						"gasEstimates": {
+							"creation": {
+								"codeDepositCost": "12600",
+								"executionCost": "66",
+								"totalCost": "12666"
+							}
+						},
+						"legacyAssembly": {
+							".code": [
+								{
+									"begin": 76,
+									"end": 98,
+									"name": "PUSH",
+									"source": 0,
+									"value": "80"
+								},
+								{
+									"begin": 76,
+									"end": 98,
+									"name": "PUSH",
+									"source": 0,
+									"value": "40"
+								},
+								{
+									"begin": 76,
+									"end": 98,
+									"name": "MSTORE",
+									"source": 0
+								},
+								{
+									"begin": 76,
+									"end": 98,
+									"name": "CALLVALUE",
+									"source": 0
+								},
+								{
+									"begin": 76,
+									"end": 98,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 76,
+									"end": 98,
+									"name": "ISZERO",
+									"source": 0
+								},
+								{
+									"begin": 76,
+									"end": 98,
+									"name": "PUSH [tag]",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 76,
+									"end": 98,
+									"name": "JUMPI",
+									"source": 0
+								},
+								{
+									"begin": 76,
+									"end": 98,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 76,
+									"end": 98,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 76,
+									"end": 98,
+									"name": "REVERT",
+									"source": 0
+								},
+								{
+									"begin": 76,
+									"end": 98,
+									"name": "tag",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 76,
+									"end": 98,
+									"name": "JUMPDEST",
+									"source": 0
+								},
+								{
+									"begin": 76,
+									"end": 98,
+									"name": "POP",
+									"source": 0
+								},
+								{
+									"begin": 76,
+									"end": 98,
+									"name": "PUSH #[$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 76,
+									"end": 98,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 76,
+									"end": 98,
+									"name": "PUSH [$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 76,
+									"end": 98,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 76,
+									"end": 98,
+									"name": "CODECOPY",
+									"source": 0
+								},
+								{
+									"begin": 76,
+									"end": 98,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 76,
+									"end": 98,
+									"name": "RETURN",
+									"source": 0
+								}
+							],
+							".data": {
+								"0": {
+									".auxdata": "a264697066735822122076d9c3438b250141b7aeca87a06907f05e0416da1b968bb4411b751bc987652d64736f6c63430008070033",
+									".code": [
+										{
+											"begin": 76,
+											"end": 98,
+											"name": "PUSH",
+											"source": 0,
+											"value": "80"
+										},
+										{
+											"begin": 76,
+											"end": 98,
+											"name": "PUSH",
+											"source": 0,
+											"value": "40"
+										},
+										{
+											"begin": 76,
+											"end": 98,
+											"name": "MSTORE",
+											"source": 0
+										},
+										{
+											"begin": 76,
+											"end": 98,
+											"name": "PUSH",
+											"source": 0,
+											"value": "0"
+										},
+										{
+											"begin": 76,
+											"end": 98,
+											"name": "DUP1",
+											"source": 0
+										},
+										{
+											"begin": 76,
+											"end": 98,
+											"name": "REVERT",
+											"source": 0
+										}
+									]
+								}
+							}
+						},
+						"methodIdentifiers": {}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.8.7+commit.e28d00a7\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"mapping.sol\":\"map\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"mapping.sol\":{\"keccak256\":\"0xa1a4080c1762ec0aa0f2f34fa1aca916daed008310aa95b77d0d9239517572c1\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://e171815d17d2d30d628f81a2792b02a30e7a4b79ec2484a2df77139cf0087c3c\",\"dweb:/ipfs/QmYLMEaAkzd5uZeFimpXCVDPHgvEYZGHjF1FVYfFoP5yH3\"]}},\"version\":1}",
+					"storageLayout": {
+						"storage": [],
+						"types": null
+					},
+					"userdoc": {
+						"kind": "user",
+						"methods": {},
+						"version": 1
+					}
+				}
+			}
+		},
+		"sources": {
+			"mapping.sol": {
+				"ast": {
+					"absolutePath": "mapping.sol",
+					"exportedSymbols": {
+						"map": [
+							2
+						]
+					},
+					"id": 3,
+					"license": "GPL-3.0",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								">=",
+								"0.5",
+								".0",
+								"<",
+								"0.9",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "39:33:0"
+						},
+						{
+							"abstract": false,
+							"baseContracts": [],
+							"contractDependencies": [],
+							"contractKind": "contract",
+							"fullyImplemented": true,
+							"id": 2,
+							"linearizedBaseContracts": [
+								2
+							],
+							"name": "map",
+							"nameLocation": "85:3:0",
+							"nodeType": "ContractDefinition",
+							"nodes": [],
+							"scope": 3,
+							"src": "76:22:0",
+							"usedErrors": []
+						}
+					],
+					"src": "39:59:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

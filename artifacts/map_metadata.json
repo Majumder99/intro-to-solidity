@@ -6,34 +6,48 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "age",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "int256",
 						"name": "",
 						"type": "int256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "num",
+				"name": "human_info",
 				"outputs": [
 					{
 						"internalType": "int256",
-						"name": "",
+						"name": "roll",
 						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "setAge",
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "key",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "_roll",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "setter",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -52,7 +66,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"while_loop.sol": "sourav"
+			"struct_map.sol": "map"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -66,12 +80,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"while_loop.sol": {
-			"keccak256": "0x1bc75b102b59859ec26858f4362053f70874a98fd83951cd3bcbf9b529b66a8a",
+		"struct_map.sol": {
+			"keccak256": "0x97fd2158f7ec59fb8ab897b04d9fe9b0d545f2b7e657b421d947e2b7e6e3af34",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://d1f0aaae1174fef4beac6db3497f4dec56ec387cd15cff624bbe9f7964b42667",
-				"dweb:/ipfs/QmZbBW9iYePn53dWog1H9PQ6MSSsL1N1AE2TRorHuQ65ao"
+				"bzz-raw://3af0f9d8ea8922b47c129347ff7754b7c06d7df231887ff1d9e728badf827266",
+				"dweb:/ipfs/QmYL4AY8XxbtusRHC5Z1TeMhAraghWwePPdKNCVRop1oZf"
 			]
 		}
 	},

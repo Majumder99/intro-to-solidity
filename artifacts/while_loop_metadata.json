@@ -6,13 +6,19 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "age",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "uint256",
 						"name": "",
-						"type": "int256"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -20,12 +26,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "num",
+				"name": "count",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "uint256",
 						"name": "",
-						"type": "int256"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -33,7 +39,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "setAge",
+				"name": "for_while_loop",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -52,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"while_loop.sol": "sourav"
+			"while_loop.sol": "while_loop"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -67,11 +73,11 @@
 	},
 	"sources": {
 		"while_loop.sol": {
-			"keccak256": "0x1bc75b102b59859ec26858f4362053f70874a98fd83951cd3bcbf9b529b66a8a",
+			"keccak256": "0x04cdebad9cbd6483b64ca1d7166e561ec4fb8c30aaee5a960e7d25fc09b0546a",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://d1f0aaae1174fef4beac6db3497f4dec56ec387cd15cff624bbe9f7964b42667",
-				"dweb:/ipfs/QmZbBW9iYePn53dWog1H9PQ6MSSsL1N1AE2TRorHuQ65ao"
+				"bzz-raw://5c86a4a132b3c6110bdbff17fd1f7553031dcbf6ebd82f7ffec2b9294967c4e2",
+				"dweb:/ipfs/QmRt8f2HZxLZcgLfjXeo2LGtFbNPbLQqDH2HiTQkgTgMuD"
 			]
 		}
 	},

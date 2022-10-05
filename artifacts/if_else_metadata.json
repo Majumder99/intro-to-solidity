@@ -6,36 +6,22 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "age",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "int256",
-						"name": "",
+						"name": "a",
 						"type": "int256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "num",
+				"name": "for_if_else",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "string",
 						"name": "",
-						"type": "int256"
+						"type": "string"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "setAge",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -52,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"while_loop.sol": "sourav"
+			"if-else.sol": "if_else"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -66,12 +52,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"while_loop.sol": {
-			"keccak256": "0x1bc75b102b59859ec26858f4362053f70874a98fd83951cd3bcbf9b529b66a8a",
+		"if-else.sol": {
+			"keccak256": "0x192ac79904ee4d8933b226541240c27f2e87ceda2168c25e57a62ba132b0a65d",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://d1f0aaae1174fef4beac6db3497f4dec56ec387cd15cff624bbe9f7964b42667",
-				"dweb:/ipfs/QmZbBW9iYePn53dWog1H9PQ6MSSsL1N1AE2TRorHuQ65ao"
+				"bzz-raw://865b1a911204ca928b00e10f193895dd356bf55519c6e12f13eea7bd94cc8eb4",
+				"dweb:/ipfs/QmeDzuzfUkBMyjsLRMTV2xSQsNZkH9Fd2tKLqD2ft5QADN"
 			]
 		}
 	},
