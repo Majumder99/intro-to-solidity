@@ -1,0 +1,405 @@
+{
+    "contractName": "Enum",
+    "abi": [
+        {
+            "inputs": [],
+            "name": "chnage",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "lottery",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "u1",
+            "outputs": [
+                {
+                    "internalType": "enum Enum.user",
+                    "name": "",
+                    "type": "uint8"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"chnage\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"lottery\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"u1\",\"outputs\":[{\"internalType\":\"enum Enum.user\",\"name\":\"\",\"type\":\"uint8\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"d:/Blockchain Development/Solidity/intro_to_solidity/enum.sol\":\"Enum\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"d:/Blockchain Development/Solidity/intro_to_solidity/enum.sol\":{\"keccak256\":\"0xf57cbbd67749149d8c2e6d4ea6bd340e75d9d6b79da32f18c33a26fbcf9e6758\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://636687adb05f76211e382ef64d7346efe82e8850f5985626b8c9a31c1afb074b\",\"dweb:/ipfs/QmSHo3rhHBASo3366wQ9MgzAiXFvW131wozTY44kYYEqFA\"]}},\"version\":1}",
+    "bytecode": "60806040526000805460ff191690556103e860015534801561002057600080fd5b50610112806100306000396000f3fe6080604052348015600f57600080fd5b5060043610603c5760003560e01c80631aa3561014604157806356767cc5146061578063ba13a572146069575b600080fd5b600054604d9060ff1681565b6040516058919060b5565b60405180910390f35b6067607e565b005b607160015481565b6040519081526020016058565b6000805460ff1660028111156093576093609f565b03609d5760006001555b565b634e487b7160e01b600052602160045260246000fd5b602081016003831060d657634e487b7160e01b600052602160045260246000fd5b9190529056fea2646970667358221220d3115d2b9c84a4b9c626f49dcfefc077f46a67df74c851a2710b3db68663910e64736f6c63430008110033",
+    "deployedBytecode": "6080604052348015600f57600080fd5b5060043610603c5760003560e01c80631aa3561014604157806356767cc5146061578063ba13a572146069575b600080fd5b600054604d9060ff1681565b6040516058919060b5565b60405180910390f35b6067607e565b005b607160015481565b6040519081526020016058565b6000805460ff1660028111156093576093609f565b03609d5760006001555b565b634e487b7160e01b600052602160045260246000fd5b602081016003831060d657634e487b7160e01b600052602160045260246000fd5b9190529056fea2646970667358221220d3115d2b9c84a4b9c626f49dcfefc077f46a67df74c851a2710b3db68663910e64736f6c63430008110033",
+    "sourceMap": "76:237:0:-:0;;;156:12;139:29;;-1:-1:-1;;139:29:0;;;197:4;139:29;175:26;76:237;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "76:237:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;139:29;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;208:102;;;:::i;:::-;;175:26;;;;;;;;;631:25:1;;;619:2;604:18;175:26:0;485:177:1;208:102:0;252:12;246:2;;;;:18;;;;;;;;:::i;:::-;;243:60;;290:1;280:7;:11;243:60;208:102::o;14:127:1:-;75:10;70:3;66:20;63:1;56:31;106:4;103:1;96:15;130:4;127:1;120:15;146:334;284:2;269:18;;317:1;306:13;;296:144;;362:10;357:3;353:20;350:1;343:31;397:4;394:1;387:15;425:4;422:1;415:15;296:144;449:25;;;146:334;:::o",
+    "sourcePath": "d:/Blockchain Development/Solidity/intro_to_solidity/enum.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.17+commit.8df45f5f"
+    },
+    "ast": {
+        "absolutePath": "d:/Blockchain Development/Solidity/intro_to_solidity/enum.sol",
+        "exportedSymbols": {
+            "Enum": [
+                28
+            ]
+        },
+        "id": 29,
+        "license": "GPL-3.0",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    ">=",
+                    "0.4",
+                    ".0",
+                    "<",
+                    "0.9",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "39:33:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "Enum",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 28,
+                "linearizedBaseContracts": [
+                    28
+                ],
+                "name": "Enum",
+                "nameLocation": "85:4:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "canonicalName": "Enum.user",
+                        "id": 5,
+                        "members": [
+                            {
+                                "id": 2,
+                                "name": "allowed",
+                                "nameLocation": "106:7:0",
+                                "nodeType": "EnumValue",
+                                "src": "106:7:0"
+                            },
+                            {
+                                "id": 3,
+                                "name": "not_allowed",
+                                "nameLocation": "115:11:0",
+                                "nodeType": "EnumValue",
+                                "src": "115:11:0"
+                            },
+                            {
+                                "id": 4,
+                                "name": "wait",
+                                "nameLocation": "128:4:0",
+                                "nodeType": "EnumValue",
+                                "src": "128:4:0"
+                            }
+                        ],
+                        "name": "user",
+                        "nameLocation": "101:4:0",
+                        "nodeType": "EnumDefinition",
+                        "src": "96:37:0"
+                    },
+                    {
+                        "constant": false,
+                        "functionSelector": "1aa35610",
+                        "id": 10,
+                        "mutability": "mutable",
+                        "name": "u1",
+                        "nameLocation": "151:2:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 28,
+                        "src": "139:29:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_user_$5",
+                            "typeString": "enum Enum.user"
+                        },
+                        "typeName": {
+                            "id": 7,
+                            "nodeType": "UserDefinedTypeName",
+                            "pathNode": {
+                                "id": 6,
+                                "name": "user",
+                                "nameLocations": [
+                                    "139:4:0"
+                                ],
+                                "nodeType": "IdentifierPath",
+                                "referencedDeclaration": 5,
+                                "src": "139:4:0"
+                            },
+                            "referencedDeclaration": 5,
+                            "src": "139:4:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_enum$_user_$5",
+                                "typeString": "enum Enum.user"
+                            }
+                        },
+                        "value": {
+                            "expression": {
+                                "id": 8,
+                                "name": "user",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 5,
+                                "src": "156:4:0",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_type$_t_enum$_user_$5_$",
+                                    "typeString": "type(enum Enum.user)"
+                                }
+                            },
+                            "id": 9,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "lValueRequested": false,
+                            "memberLocation": "161:7:0",
+                            "memberName": "allowed",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": 2,
+                            "src": "156:12:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_enum$_user_$5",
+                                "typeString": "enum Enum.user"
+                            }
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "constant": false,
+                        "functionSelector": "ba13a572",
+                        "id": 13,
+                        "mutability": "mutable",
+                        "name": "lottery",
+                        "nameLocation": "187:7:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 28,
+                        "src": "175:26:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                        },
+                        "typeName": {
+                            "id": 11,
+                            "name": "uint",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "175:4:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                            }
+                        },
+                        "value": {
+                            "hexValue": "31303030",
+                            "id": 12,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "number",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "197:4:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_rational_1000_by_1",
+                                "typeString": "int_const 1000"
+                            },
+                            "value": "1000"
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 26,
+                            "nodeType": "Block",
+                            "src": "232:78:0",
+                            "statements": [
+                                {
+                                    "condition": {
+                                        "commonType": {
+                                            "typeIdentifier": "t_enum$_user_$5",
+                                            "typeString": "enum Enum.user"
+                                        },
+                                        "id": 19,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftExpression": {
+                                            "id": 16,
+                                            "name": "u1",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 10,
+                                            "src": "246:2:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_enum$_user_$5",
+                                                "typeString": "enum Enum.user"
+                                            }
+                                        },
+                                        "nodeType": "BinaryOperation",
+                                        "operator": "==",
+                                        "rightExpression": {
+                                            "expression": {
+                                                "id": 17,
+                                                "name": "user",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 5,
+                                                "src": "252:4:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_type$_t_enum$_user_$5_$",
+                                                    "typeString": "type(enum Enum.user)"
+                                                }
+                                            },
+                                            "id": 18,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": true,
+                                            "lValueRequested": false,
+                                            "memberLocation": "257:7:0",
+                                            "memberName": "allowed",
+                                            "nodeType": "MemberAccess",
+                                            "referencedDeclaration": 2,
+                                            "src": "252:12:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_enum$_user_$5",
+                                                "typeString": "enum Enum.user"
+                                            }
+                                        },
+                                        "src": "246:18:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_bool",
+                                            "typeString": "bool"
+                                        }
+                                    },
+                                    "id": 25,
+                                    "nodeType": "IfStatement",
+                                    "src": "243:60:0",
+                                    "trueBody": {
+                                        "id": 24,
+                                        "nodeType": "Block",
+                                        "src": "265:38:0",
+                                        "statements": [
+                                            {
+                                                "expression": {
+                                                    "id": 22,
+                                                    "isConstant": false,
+                                                    "isLValue": false,
+                                                    "isPure": false,
+                                                    "lValueRequested": false,
+                                                    "leftHandSide": {
+                                                        "id": 20,
+                                                        "name": "lottery",
+                                                        "nodeType": "Identifier",
+                                                        "overloadedDeclarations": [],
+                                                        "referencedDeclaration": 13,
+                                                        "src": "280:7:0",
+                                                        "typeDescriptions": {
+                                                            "typeIdentifier": "t_uint256",
+                                                            "typeString": "uint256"
+                                                        }
+                                                    },
+                                                    "nodeType": "Assignment",
+                                                    "operator": "=",
+                                                    "rightHandSide": {
+                                                        "hexValue": "30",
+                                                        "id": 21,
+                                                        "isConstant": false,
+                                                        "isLValue": false,
+                                                        "isPure": true,
+                                                        "kind": "number",
+                                                        "lValueRequested": false,
+                                                        "nodeType": "Literal",
+                                                        "src": "290:1:0",
+                                                        "typeDescriptions": {
+                                                            "typeIdentifier": "t_rational_0_by_1",
+                                                            "typeString": "int_const 0"
+                                                        },
+                                                        "value": "0"
+                                                    },
+                                                    "src": "280:11:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_uint256",
+                                                        "typeString": "uint256"
+                                                    }
+                                                },
+                                                "id": 23,
+                                                "nodeType": "ExpressionStatement",
+                                                "src": "280:11:0"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        "functionSelector": "56767cc5",
+                        "id": 27,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "chnage",
+                        "nameLocation": "217:6:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 14,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "223:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 15,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "232:0:0"
+                        },
+                        "scope": 28,
+                        "src": "208:102:0",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 29,
+                "src": "76:237:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "39:274:0"
+    },
+    "functionHashes": {
+        "chnage()": "56767cc5",
+        "lottery()": "ba13a572",
+        "u1()": "1aa35610"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "54800",
+            "executionCost": "46429",
+            "totalCost": "101229"
+        },
+        "external": {
+            "chnage()": "7305",
+            "lottery()": "2317",
+            "u1()": "2329"
+        }
+    }
+}
