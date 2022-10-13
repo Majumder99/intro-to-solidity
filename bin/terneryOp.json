@@ -1,0 +1,331 @@
+{
+    "contractName": "terneryOp",
+    "abi": [
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "x",
+                    "type": "uint256"
+                }
+            ],
+            "name": "terneryOpp",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "pure",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"x\",\"type\":\"uint256\"}],\"name\":\"terneryOpp\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"d:/Blockchain Development/Solidity/intro_to_solidity/terneryOperator.sol\":\"terneryOp\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"d:/Blockchain Development/Solidity/intro_to_solidity/terneryOperator.sol\":{\"keccak256\":\"0xa9787c3276bf607e50a60be13923a95c7779a35cee56b3e83f74a47fa2954421\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://822f2c5c84adca8b96d73c994bb64bfee317536788978524260c545eaa2e6dea\",\"dweb:/ipfs/QmRpiqTgZNMMgJt4PLPPJcAb1Lb6W5FMpVxPKAnUx1ZQCj\"]}},\"version\":1}",
+    "bytecode": "608060405234801561001057600080fd5b5061014d806100206000396000f3fe608060405234801561001057600080fd5b506004361061002b5760003560e01c80631d0fbf1114610030575b600080fd5b61004361003e3660046100b0565b610059565b60405161005091906100c9565b60405180910390f35b60606000600a831161008857604051806040016040528060058152602001642637bbb2b960d91b8152506100a9565b6040518060400160405280600781526020016623b932b0ba32b960c91b8152505b9392505050565b6000602082840312156100c257600080fd5b5035919050565b600060208083528351808285015260005b818110156100f6578581018301518582016040015282016100da565b506000604082860101526040601f19601f830116850101925050509291505056fea2646970667358221220c1754edeb239acca3bdd338b3a103da782657afd89c783d21f56f8640129caa564736f6c63430008110033",
+    "deployedBytecode": "608060405234801561001057600080fd5b506004361061002b5760003560e01c80631d0fbf1114610030575b600080fd5b61004361003e3660046100b0565b610059565b60405161005091906100c9565b60405180910390f35b60606000600a831161008857604051806040016040528060058152602001642637bbb2b960d91b8152506100a9565b6040518060400160405280600781526020016623b932b0ba32b960c91b8152505b9392505050565b6000602082840312156100c257600080fd5b5035919050565b600060208083528351808285015260005b818110156100f6578581018301518582016040015282016100da565b506000604082860101526040601f19601f830116850101925050509291505056fea2646970667358221220c1754edeb239acca3bdd338b3a103da782657afd89c783d21f56f8640129caa564736f6c63430008110033",
+    "sourceMap": "74:184:0:-:0;;;;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "74:184:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;99:156;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;;147:13;172:20;199:2;195:1;:6;:28;;;;;;;;;;;;;;;-1:-1:-1;;;195:28:0;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;195:28:0;;;;172:51;99:156;-1:-1:-1;;;99:156:0:o;14:180:1:-;73:6;126:2;114:9;105:7;101:23;97:32;94:52;;;142:1;139;132:12;94:52;-1:-1:-1;165:23:1;;14:180;-1:-1:-1;14:180:1:o;199:548::-;311:4;340:2;369;358:9;351:21;401:6;395:13;444:6;439:2;428:9;424:18;417:34;469:1;479:140;493:6;490:1;487:13;479:140;;;588:14;;;584:23;;578:30;554:17;;;573:2;550:26;543:66;508:10;;479:140;;;483:3;668:1;663:2;654:6;643:9;639:22;635:31;628:42;738:2;731;727:7;722:2;714:6;710:15;706:29;695:9;691:45;687:54;679:62;;;;199:548;;;;:::o",
+    "sourcePath": "d:/Blockchain Development/Solidity/intro_to_solidity/terneryOperator.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.17+commit.8df45f5f"
+    },
+    "ast": {
+        "absolutePath": "d:/Blockchain Development/Solidity/intro_to_solidity/terneryOperator.sol",
+        "exportedSymbols": {
+            "terneryOp": [
+                21
+            ]
+        },
+        "id": 22,
+        "license": "GPL-3.0",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    ">=",
+                    "0.4",
+                    ".0",
+                    "<",
+                    "0.9",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "37:33:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "terneryOp",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 21,
+                "linearizedBaseContracts": [
+                    21
+                ],
+                "name": "terneryOp",
+                "nameLocation": "83:9:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "body": {
+                            "id": 19,
+                            "nodeType": "Block",
+                            "src": "161:94:0",
+                            "statements": [
+                                {
+                                    "assignments": [
+                                        9
+                                    ],
+                                    "declarations": [
+                                        {
+                                            "constant": false,
+                                            "id": 9,
+                                            "mutability": "mutable",
+                                            "name": "result",
+                                            "nameLocation": "186:6:0",
+                                            "nodeType": "VariableDeclaration",
+                                            "scope": 19,
+                                            "src": "172:20:0",
+                                            "stateVariable": false,
+                                            "storageLocation": "memory",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_string_memory_ptr",
+                                                "typeString": "string"
+                                            },
+                                            "typeName": {
+                                                "id": 8,
+                                                "name": "string",
+                                                "nodeType": "ElementaryTypeName",
+                                                "src": "172:6:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_string_storage_ptr",
+                                                    "typeString": "string"
+                                                }
+                                            },
+                                            "visibility": "internal"
+                                        }
+                                    ],
+                                    "id": 16,
+                                    "initialValue": {
+                                        "condition": {
+                                            "commonType": {
+                                                "typeIdentifier": "t_uint256",
+                                                "typeString": "uint256"
+                                            },
+                                            "id": 12,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": false,
+                                            "lValueRequested": false,
+                                            "leftExpression": {
+                                                "id": 10,
+                                                "name": "x",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 3,
+                                                "src": "195:1:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_uint256",
+                                                    "typeString": "uint256"
+                                                }
+                                            },
+                                            "nodeType": "BinaryOperation",
+                                            "operator": ">",
+                                            "rightExpression": {
+                                                "hexValue": "3130",
+                                                "id": 11,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": true,
+                                                "kind": "number",
+                                                "lValueRequested": false,
+                                                "nodeType": "Literal",
+                                                "src": "199:2:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_rational_10_by_1",
+                                                    "typeString": "int_const 10"
+                                                },
+                                                "value": "10"
+                                            },
+                                            "src": "195:6:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_bool",
+                                                "typeString": "bool"
+                                            }
+                                        },
+                                        "falseExpression": {
+                                            "hexValue": "4c6f776572",
+                                            "id": 14,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": true,
+                                            "kind": "string",
+                                            "lValueRequested": false,
+                                            "nodeType": "Literal",
+                                            "src": "216:7:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_stringliteral_87f4355177cb5549b5382d55741d030479ca1fa1f4bb9cbce617e4d673e88c72",
+                                                "typeString": "literal_string \"Lower\""
+                                            },
+                                            "value": "Lower"
+                                        },
+                                        "id": 15,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "nodeType": "Conditional",
+                                        "src": "195:28:0",
+                                        "trueExpression": {
+                                            "hexValue": "47726561746572",
+                                            "id": 13,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": true,
+                                            "kind": "string",
+                                            "lValueRequested": false,
+                                            "nodeType": "Literal",
+                                            "src": "204:9:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_stringliteral_9c081c9e38a066be7423c4b1be05d00eddc9778b4d6212e8a2da8a0c9bb0de30",
+                                                "typeString": "literal_string \"Greater\""
+                                            },
+                                            "value": "Greater"
+                                        },
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_memory_ptr",
+                                            "typeString": "string memory"
+                                        }
+                                    },
+                                    "nodeType": "VariableDeclarationStatement",
+                                    "src": "172:51:0"
+                                },
+                                {
+                                    "expression": {
+                                        "id": 17,
+                                        "name": "result",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 9,
+                                        "src": "241:6:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_memory_ptr",
+                                            "typeString": "string memory"
+                                        }
+                                    },
+                                    "functionReturnParameters": 7,
+                                    "id": 18,
+                                    "nodeType": "Return",
+                                    "src": "234:13:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "1d0fbf11",
+                        "id": 20,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "terneryOpp",
+                        "nameLocation": "108:10:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 4,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 3,
+                                    "mutability": "mutable",
+                                    "name": "x",
+                                    "nameLocation": "124:1:0",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 20,
+                                    "src": "119:6:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                    },
+                                    "typeName": {
+                                        "id": 2,
+                                        "name": "uint",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "119:4:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "118:8:0"
+                        },
+                        "returnParameters": {
+                            "id": 7,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 6,
+                                    "mutability": "mutable",
+                                    "name": "",
+                                    "nameLocation": "-1:-1:-1",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 20,
+                                    "src": "147:13:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "memory",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_memory_ptr",
+                                        "typeString": "string"
+                                    },
+                                    "typeName": {
+                                        "id": 5,
+                                        "name": "string",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "147:6:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage_ptr",
+                                            "typeString": "string"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "146:15:0"
+                        },
+                        "scope": 21,
+                        "src": "99:156:0",
+                        "stateMutability": "pure",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 22,
+                "src": "74:184:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "37:221:0"
+    },
+    "functionHashes": {
+        "terneryOpp(uint256)": "1d0fbf11"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "66600",
+            "executionCost": "117",
+            "totalCost": "66717"
+        },
+        "external": {
+            "terneryOpp(uint256)": "infinite"
+        }
+    }
+}
