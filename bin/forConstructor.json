@@ -1,0 +1,1587 @@
+{
+    "contractName": "forConstructor",
+    "abi": [
+        {
+            "inputs": [
+                {
+                    "internalType": "string",
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "age",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "address",
+                    "name": "acc",
+                    "type": "address"
+                }
+            ],
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+        },
+        {
+            "inputs": [],
+            "name": "emp0",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "age",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "address",
+                    "name": "acc",
+                    "type": "address"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "updateEmp",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"},{\"internalType\":\"uint256\",\"name\":\"age\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"acc\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"emp0\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"},{\"internalType\":\"uint256\",\"name\":\"age\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"acc\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"updateEmp\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"d:/Blockchain Development/Solidity/intro_to_solidity/structure.sol\":\"forConstructor\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"d:/Blockchain Development/Solidity/intro_to_solidity/structure.sol\":{\"keccak256\":\"0xddb51e0020bc8aafe6ecd6176b10d50e7d1351b81f8b258ce072cafe0d47b232\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://dad07797ecfaaa54bdb4a9d5133d9ab8e5ede8be8f2e0703d869b1ee63932b78\",\"dweb:/ipfs/QmRBVU2ZqhqhpKTBG7FiErWCV7B2vcjHqR8V9gtEmToxDr\"]}},\"version\":1}",
+    "bytecode": "608060405234801561001057600080fd5b506040516106f83803806106f883398101604081905261002f91610099565b600061003b8482610205565b50600191909155600280546001600160a01b0319166001600160a01b03909216919091179055506102c4565b634e487b7160e01b600052604160045260246000fd5b80516001600160a01b038116811461009457600080fd5b919050565b6000806000606084860312156100ae57600080fd5b83516001600160401b03808211156100c557600080fd5b818601915086601f8301126100d957600080fd5b8151818111156100eb576100eb610067565b604051601f8201601f19908116603f0116810190838211818310171561011357610113610067565b8160405282815260209350898484870101111561012f57600080fd5b600091505b828210156101515784820184015181830185015290830190610134565b600084848301015280975050505080860151935050506101736040850161007d565b90509250925092565b600181811c9082168061019057607f821691505b6020821081036101b057634e487b7160e01b600052602260045260246000fd5b50919050565b601f82111561020057600081815260208120601f850160051c810160208610156101dd5750805b601f850160051c820191505b818110156101fc578281556001016101e9565b5050505b505050565b81516001600160401b0381111561021e5761021e610067565b6102328161022c845461017c565b846101b6565b602080601f831160018114610267576000841561024f5750858301515b600019600386901b1c1916600185901b1785556101fc565b600085815260208120601f198616915b8281101561029657888601518255948401946001909101908401610277565b50858210156102b45787850151600019600388901b60f8161c191681555b5050505050600190811b01905550565b610425806102d36000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c806309993dcc1461003b5780632bbb14d71461005b575b600080fd5b610043610065565b6040516100529392919061022a565b60405180910390f35b61006361010d565b005b60008054819061007490610290565b80601f01602080910402602001604051908101604052809291908181526020018280546100a090610290565b80156100ed5780601f106100c2576101008083540402835291602001916100ed565b820191906000526020600020905b8154815290600101906020018083116100d057829003601f168201915b5050505060018301546002909301549192916001600160a01b0316905083565b61013a6040518060600160405280606081526020016000815260200160006001600160a01b031681525090565b600060405180606001604052908160008201805461015790610290565b80601f016020809104026020016040519081016040528092919081815260200182805461018390610290565b80156101d05780601f106101a5576101008083540402835291602001916101d0565b820191906000526020600020905b8154815290600101906020018083116101b357829003601f168201915b505050918352505060018201546020808301919091526002909201546001600160a01b031660409182015280518082019091526004815263546f726960e01b91810191909152909150600090610226908261032f565b5050565b606081526000845180606084015260005b81811015610258576020818801810151608086840101520161023b565b506000608082850181019190915260208401959095526001600160a01b0393909316604083015250601f909101601f19160101919050565b600181811c908216806102a457607f821691505b6020821081036102c457634e487b7160e01b600052602260045260246000fd5b50919050565b634e487b7160e01b600052604160045260246000fd5b601f82111561032a57600081815260208120601f850160051c810160208610156103075750805b601f850160051c820191505b8181101561032657828155600101610313565b5050505b505050565b815167ffffffffffffffff811115610349576103496102ca565b61035d816103578454610290565b846102e0565b602080601f831160018114610392576000841561037a5750858301515b600019600386901b1c1916600185901b178555610326565b600085815260208120601f198616915b828110156103c1578886015182559484019460019091019084016103a2565b50858210156103df5787850151600019600388901b60f8161c191681555b5050505050600190811b0190555056fea264697066735822122062ac645a6e3bf405a32f96d62e718c30b649b720338a8c4dcea047b53f4932a164736f6c63430008110033",
+    "deployedBytecode": "608060405234801561001057600080fd5b50600436106100365760003560e01c806309993dcc1461003b5780632bbb14d71461005b575b600080fd5b610043610065565b6040516100529392919061022a565b60405180910390f35b61006361010d565b005b60008054819061007490610290565b80601f01602080910402602001604051908101604052809291908181526020018280546100a090610290565b80156100ed5780601f106100c2576101008083540402835291602001916100ed565b820191906000526020600020905b8154815290600101906020018083116100d057829003601f168201915b5050505060018301546002909301549192916001600160a01b0316905083565b61013a6040518060600160405280606081526020016000815260200160006001600160a01b031681525090565b600060405180606001604052908160008201805461015790610290565b80601f016020809104026020016040519081016040528092919081815260200182805461018390610290565b80156101d05780601f106101a5576101008083540402835291602001916101d0565b820191906000526020600020905b8154815290600101906020018083116101b357829003601f168201915b505050918352505060018201546020808301919091526002909201546001600160a01b031660409182015280518082019091526004815263546f726960e01b91810191909152909150600090610226908261032f565b5050565b606081526000845180606084015260005b81811015610258576020818801810151608086840101520161023b565b506000608082850181019190915260208401959095526001600160a01b0393909316604083015250601f909101601f19160101919050565b600181811c908216806102a457607f821691505b6020821081036102c457634e487b7160e01b600052602260045260246000fd5b50919050565b634e487b7160e01b600052604160045260246000fd5b601f82111561032a57600081815260208120601f850160051c810160208610156103075750805b601f850160051c820191505b8181101561032657828155600101610313565b5050505b505050565b815167ffffffffffffffff811115610349576103496102ca565b61035d816103578454610290565b846102e0565b602080601f831160018114610392576000841561037a5750858301515b600019600386901b1c1916600185901b178555610326565b600085815260208120601f198616915b828110156103c1578886015182559484019460019091019084016103a2565b50858210156103df5787850151600019600388901b60f8161c191681555b5050505050600190811b0190555056fea264697066735822122062ac645a6e3bf405a32f96d62e718c30b649b720338a8c4dcea047b53f4932a164736f6c63430008110033",
+    "sourceMap": "607:322:0:-:0;;;659:140;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;724:4;:16;736:4;724;:16;:::i;:::-;-1:-1:-1;752:8:0;:14;;;;777:8;:14;;-1:-1:-1;;;;;;777:14:0;-1:-1:-1;;;;;777:14:0;;;;;;;;;-1:-1:-1;607:322:0;;14:127:1;75:10;70:3;66:20;63:1;56:31;106:4;103:1;96:15;130:4;127:1;120:15;146:177;225:13;;-1:-1:-1;;;;;267:31:1;;257:42;;247:70;;313:1;310;303:12;247:70;146:177;;;:::o;328:1190::-;426:6;434;442;495:2;483:9;474:7;470:23;466:32;463:52;;;511:1;508;501:12;463:52;538:16;;-1:-1:-1;;;;;603:14:1;;;600:34;;;630:1;627;620:12;600:34;668:6;657:9;653:22;643:32;;713:7;706:4;702:2;698:13;694:27;684:55;;735:1;732;725:12;684:55;764:2;758:9;786:2;782;779:10;776:36;;;792:18;;:::i;:::-;867:2;861:9;835:2;921:13;;-1:-1:-1;;917:22:1;;;941:2;913:31;909:40;897:53;;;965:18;;;985:22;;;962:46;959:72;;;1011:18;;:::i;:::-;1051:10;1047:2;1040:22;1086:2;1078:6;1071:18;1108:4;1098:14;;1149:7;1144:2;1139;1135;1131:11;1127:20;1124:33;1121:53;;;1170:1;1167;1160:12;1121:53;1192:1;1183:10;;1202:129;1216:2;1213:1;1210:9;1202:129;;;1304:10;;;1300:19;;1294:26;1273:14;;;1269:23;;1262:59;1227:10;;;;1202:129;;;1373:1;1368:2;1363;1355:6;1351:15;1347:24;1340:35;1394:6;1384:16;;;;;1440:2;1429:9;1425:18;1419:25;1409:35;;;;1463:49;1508:2;1497:9;1493:18;1463:49;:::i;:::-;1453:59;;328:1190;;;;;:::o;1523:380::-;1602:1;1598:12;;;;1645;;;1666:61;;1720:4;1712:6;1708:17;1698:27;;1666:61;1773:2;1765:6;1762:14;1742:18;1739:38;1736:161;;1819:10;1814:3;1810:20;1807:1;1800:31;1854:4;1851:1;1844:15;1882:4;1879:1;1872:15;1736:161;;1523:380;;;:::o;2034:545::-;2136:2;2131:3;2128:11;2125:448;;;2172:1;2197:5;2193:2;2186:17;2242:4;2238:2;2228:19;2312:2;2300:10;2296:19;2293:1;2289:27;2283:4;2279:38;2348:4;2336:10;2333:20;2330:47;;;-1:-1:-1;2371:4:1;2330:47;2426:2;2421:3;2417:12;2414:1;2410:20;2404:4;2400:31;2390:41;;2481:82;2499:2;2492:5;2489:13;2481:82;;;2544:17;;;2525:1;2514:13;2481:82;;;2485:3;;;2125:448;2034:545;;;:::o;2755:1352::-;2875:10;;-1:-1:-1;;;;;2897:30:1;;2894:56;;;2930:18;;:::i;:::-;2959:97;3049:6;3009:38;3041:4;3035:11;3009:38;:::i;:::-;3003:4;2959:97;:::i;:::-;3111:4;;3175:2;3164:14;;3192:1;3187:663;;;;3894:1;3911:6;3908:89;;;-1:-1:-1;3963:19:1;;;3957:26;3908:89;-1:-1:-1;;2712:1:1;2708:11;;;2704:24;2700:29;2690:40;2736:1;2732:11;;;2687:57;4010:81;;3157:944;;3187:663;1981:1;1974:14;;;2018:4;2005:18;;-1:-1:-1;;3223:20:1;;;3341:236;3355:7;3352:1;3349:14;3341:236;;;3444:19;;;3438:26;3423:42;;3536:27;;;;3504:1;3492:14;;;;3371:19;;3341:236;;;3345:3;3605:6;3596:7;3593:19;3590:201;;;3666:19;;;3660:26;-1:-1:-1;;3749:1:1;3745:14;;;3761:3;3741:24;3737:37;3733:42;3718:58;3703:74;;3590:201;-1:-1:-1;;;;;3837:1:1;3821:14;;;3817:22;3804:36;;-1:-1:-1;2755:1352:1:o;:::-;607:322:0;;;;;;",
+    "deployedSourceMap": "607:322:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;637:15;;;:::i;:::-;;;;;;;;;:::i;:::-;;;;;;;;806:120;;;:::i;:::-;;637:15;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;637:15:0;;;;;;;;;;;;-1:-1:-1;;;;;637:15:0;;-1:-1:-1;637:15:0;:::o;806:120::-;844:19;-1:-1:-1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;844:19:0;885:4;874:15;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;874:15:0;;;-1:-1:-1;;874:15:0;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;874:15:0;;;;;;900:18;;;;;;;;;;;-1:-1:-1;;;900:18:0;;;;;;;874:15;;-1:-1:-1;;;900:18:0;;-1:-1:-1;900:18:0;:::i;:::-;;833:93;806:120::o;14:704:1:-;219:2;208:9;201:21;182:4;251:6;245:13;294:6;289:2;278:9;274:18;267:34;319:1;329:145;343:6;340:1;337:13;329:145;;;457:4;441:14;;;437:25;;431:32;425:3;406:17;;;402:27;395:69;358:12;329:145;;;-1:-1:-1;524:1:1;518:3;494:22;;;490:32;;483:43;;;;629:4;614:20;;607:36;;;;-1:-1:-1;;;;;679:32:1;;;;674:2;659:18;;652:60;-1:-1:-1;587:2:1;566:15;;;-1:-1:-1;;562:29:1;547:45;543:55;;;-1:-1:-1;14:704:1:o;723:380::-;802:1;798:12;;;;845;;;866:61;;920:4;912:6;908:17;898:27;;866:61;973:2;965:6;962:14;942:18;939:38;936:161;;1019:10;1014:3;1010:20;1007:1;1000:31;1054:4;1051:1;1044:15;1082:4;1079:1;1072:15;936:161;;723:380;;;:::o;1108:127::-;1169:10;1164:3;1160:20;1157:1;1150:31;1200:4;1197:1;1190:15;1224:4;1221:1;1214:15;1366:545;1468:2;1463:3;1460:11;1457:448;;;1504:1;1529:5;1525:2;1518:17;1574:4;1570:2;1560:19;1644:2;1632:10;1628:19;1625:1;1621:27;1615:4;1611:38;1680:4;1668:10;1665:20;1662:47;;;-1:-1:-1;1703:4:1;1662:47;1758:2;1753:3;1749:12;1746:1;1742:20;1736:4;1732:31;1722:41;;1813:82;1831:2;1824:5;1821:13;1813:82;;;1876:17;;;1857:1;1846:13;1813:82;;;1817:3;;;1457:448;1366:545;;;:::o;2087:1352::-;2213:3;2207:10;2240:18;2232:6;2229:30;2226:56;;;2262:18;;:::i;:::-;2291:97;2381:6;2341:38;2373:4;2367:11;2341:38;:::i;:::-;2335:4;2291:97;:::i;:::-;2443:4;;2507:2;2496:14;;2524:1;2519:663;;;;3226:1;3243:6;3240:89;;;-1:-1:-1;3295:19:1;;;3289:26;3240:89;-1:-1:-1;;2044:1:1;2040:11;;;2036:24;2032:29;2022:40;2068:1;2064:11;;;2019:57;3342:81;;2489:944;;2519:663;1313:1;1306:14;;;1350:4;1337:18;;-1:-1:-1;;2555:20:1;;;2673:236;2687:7;2684:1;2681:14;2673:236;;;2776:19;;;2770:26;2755:42;;2868:27;;;;2836:1;2824:14;;;;2703:19;;2673:236;;;2677:3;2937:6;2928:7;2925:19;2922:201;;;2998:19;;;2992:26;-1:-1:-1;;3081:1:1;3077:14;;;3093:3;3073:24;3069:37;3065:42;3050:58;3035:74;;2922:201;-1:-1:-1;;;;;3169:1:1;3153:14;;;3149:22;3136:36;;-1:-1:-1;2087:1352:1:o",
+    "sourcePath": "d:/Blockchain Development/Solidity/intro_to_solidity/structure.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.17+commit.8df45f5f"
+    },
+    "ast": {
+        "absolutePath": "d:/Blockchain Development/Solidity/intro_to_solidity/structure.sol",
+        "exportedSymbols": {
+            "Emp": [
+                8
+            ],
+            "forConstructor": [
+                126
+            ],
+            "newEmp": [
+                76
+            ]
+        },
+        "id": 127,
+        "license": "GPL-3.0",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    ">=",
+                    "0.4",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "39:24:0"
+            },
+            {
+                "canonicalName": "Emp",
+                "id": 8,
+                "members": [
+                    {
+                        "constant": false,
+                        "id": 3,
+                        "mutability": "mutable",
+                        "name": "name",
+                        "nameLocation": "91:4:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 8,
+                        "src": "84:11:0",
+                        "stateVariable": false,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_string_storage_ptr",
+                            "typeString": "string"
+                        },
+                        "typeName": {
+                            "id": 2,
+                            "name": "string",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "84:6:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_string_storage_ptr",
+                                "typeString": "string"
+                            }
+                        },
+                        "visibility": "internal"
+                    },
+                    {
+                        "constant": false,
+                        "id": 5,
+                        "mutability": "mutable",
+                        "name": "age",
+                        "nameLocation": "107:3:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 8,
+                        "src": "102:8:0",
+                        "stateVariable": false,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                        },
+                        "typeName": {
+                            "id": 4,
+                            "name": "uint",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "102:4:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                            }
+                        },
+                        "visibility": "internal"
+                    },
+                    {
+                        "constant": false,
+                        "id": 7,
+                        "mutability": "mutable",
+                        "name": "acc",
+                        "nameLocation": "125:3:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 8,
+                        "src": "117:11:0",
+                        "stateVariable": false,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                        },
+                        "typeName": {
+                            "id": 6,
+                            "name": "address",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "117:7:0",
+                            "stateMutability": "nonpayable",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_address",
+                                "typeString": "address"
+                            }
+                        },
+                        "visibility": "internal"
+                    }
+                ],
+                "name": "Emp",
+                "nameLocation": "74:3:0",
+                "nodeType": "StructDefinition",
+                "scope": 127,
+                "src": "67:65:0",
+                "visibility": "public"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "newEmp",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 76,
+                "linearizedBaseContracts": [
+                    76
+                ],
+                "name": "newEmp",
+                "nameLocation": "145:6:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "functionSelector": "dbe7e257",
+                        "id": 12,
+                        "mutability": "mutable",
+                        "name": "emp",
+                        "nameLocation": "171:3:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 76,
+                        "src": "158:16:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_array$_t_struct$_Emp_$8_storage_$dyn_storage",
+                            "typeString": "struct Emp[]"
+                        },
+                        "typeName": {
+                            "baseType": {
+                                "id": 10,
+                                "nodeType": "UserDefinedTypeName",
+                                "pathNode": {
+                                    "id": 9,
+                                    "name": "Emp",
+                                    "nameLocations": [
+                                        "158:3:0"
+                                    ],
+                                    "nodeType": "IdentifierPath",
+                                    "referencedDeclaration": 8,
+                                    "src": "158:3:0"
+                                },
+                                "referencedDeclaration": 8,
+                                "src": "158:3:0",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_struct$_Emp_$8_storage_ptr",
+                                    "typeString": "struct Emp"
+                                }
+                            },
+                            "id": 11,
+                            "nodeType": "ArrayTypeName",
+                            "src": "158:5:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_array$_t_struct$_Emp_$8_storage_$dyn_storage_ptr",
+                                "typeString": "struct Emp[]"
+                            }
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 74,
+                            "nodeType": "Block",
+                            "src": "205:397:0",
+                            "statements": [
+                                {
+                                    "assignments": [
+                                        17
+                                    ],
+                                    "declarations": [
+                                        {
+                                            "constant": false,
+                                            "id": 17,
+                                            "mutability": "mutable",
+                                            "name": "emp1",
+                                            "nameLocation": "227:4:0",
+                                            "nodeType": "VariableDeclaration",
+                                            "scope": 74,
+                                            "src": "216:15:0",
+                                            "stateVariable": false,
+                                            "storageLocation": "memory",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_struct$_Emp_$8_memory_ptr",
+                                                "typeString": "struct Emp"
+                                            },
+                                            "typeName": {
+                                                "id": 16,
+                                                "nodeType": "UserDefinedTypeName",
+                                                "pathNode": {
+                                                    "id": 15,
+                                                    "name": "Emp",
+                                                    "nameLocations": [
+                                                        "216:3:0"
+                                                    ],
+                                                    "nodeType": "IdentifierPath",
+                                                    "referencedDeclaration": 8,
+                                                    "src": "216:3:0"
+                                                },
+                                                "referencedDeclaration": 8,
+                                                "src": "216:3:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_struct$_Emp_$8_storage_ptr",
+                                                    "typeString": "struct Emp"
+                                                }
+                                            },
+                                            "visibility": "internal"
+                                        }
+                                    ],
+                                    "id": 23,
+                                    "initialValue": {
+                                        "arguments": [
+                                            {
+                                                "hexValue": "536f75726176",
+                                                "id": 19,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": true,
+                                                "kind": "string",
+                                                "lValueRequested": false,
+                                                "nodeType": "Literal",
+                                                "src": "238:8:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_stringliteral_ce23cc808dc4e6ddaea0c259a2d105d981bda419c3d79164e3fd6416ae2fb9a7",
+                                                    "typeString": "literal_string \"Sourav\""
+                                                },
+                                                "value": "Sourav"
+                                            },
+                                            {
+                                                "hexValue": "3234",
+                                                "id": 20,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": true,
+                                                "kind": "number",
+                                                "lValueRequested": false,
+                                                "nodeType": "Literal",
+                                                "src": "248:2:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_rational_24_by_1",
+                                                    "typeString": "int_const 24"
+                                                },
+                                                "value": "24"
+                                            },
+                                            {
+                                                "hexValue": "307836313746324532664437324644394435353033313937303932614331363863393134363545376632",
+                                                "id": 21,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": true,
+                                                "kind": "number",
+                                                "lValueRequested": false,
+                                                "nodeType": "Literal",
+                                                "src": "252:42:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_address",
+                                                    "typeString": "address"
+                                                },
+                                                "value": "0x617F2E2fD72FD9D5503197092aC168c91465E7f2"
+                                            }
+                                        ],
+                                        "expression": {
+                                            "argumentTypes": [
+                                                {
+                                                    "typeIdentifier": "t_stringliteral_ce23cc808dc4e6ddaea0c259a2d105d981bda419c3d79164e3fd6416ae2fb9a7",
+                                                    "typeString": "literal_string \"Sourav\""
+                                                },
+                                                {
+                                                    "typeIdentifier": "t_rational_24_by_1",
+                                                    "typeString": "int_const 24"
+                                                },
+                                                {
+                                                    "typeIdentifier": "t_address",
+                                                    "typeString": "address"
+                                                }
+                                            ],
+                                            "id": 18,
+                                            "name": "Emp",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 8,
+                                            "src": "234:3:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_type$_t_struct$_Emp_$8_storage_ptr_$",
+                                                "typeString": "type(struct Emp storage pointer)"
+                                            }
+                                        },
+                                        "id": 22,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": true,
+                                        "kind": "structConstructorCall",
+                                        "lValueRequested": false,
+                                        "nameLocations": [],
+                                        "names": [],
+                                        "nodeType": "FunctionCall",
+                                        "src": "234:61:0",
+                                        "tryCall": false,
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_struct$_Emp_$8_memory_ptr",
+                                            "typeString": "struct Emp memory"
+                                        }
+                                    },
+                                    "nodeType": "VariableDeclarationStatement",
+                                    "src": "216:79:0"
+                                },
+                                {
+                                    "assignments": [
+                                        26
+                                    ],
+                                    "declarations": [
+                                        {
+                                            "constant": false,
+                                            "id": 26,
+                                            "mutability": "mutable",
+                                            "name": "emp2",
+                                            "nameLocation": "317:4:0",
+                                            "nodeType": "VariableDeclaration",
+                                            "scope": 74,
+                                            "src": "306:15:0",
+                                            "stateVariable": false,
+                                            "storageLocation": "memory",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_struct$_Emp_$8_memory_ptr",
+                                                "typeString": "struct Emp"
+                                            },
+                                            "typeName": {
+                                                "id": 25,
+                                                "nodeType": "UserDefinedTypeName",
+                                                "pathNode": {
+                                                    "id": 24,
+                                                    "name": "Emp",
+                                                    "nameLocations": [
+                                                        "306:3:0"
+                                                    ],
+                                                    "nodeType": "IdentifierPath",
+                                                    "referencedDeclaration": 8,
+                                                    "src": "306:3:0"
+                                                },
+                                                "referencedDeclaration": 8,
+                                                "src": "306:3:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_struct$_Emp_$8_storage_ptr",
+                                                    "typeString": "struct Emp"
+                                                }
+                                            },
+                                            "visibility": "internal"
+                                        }
+                                    ],
+                                    "id": 32,
+                                    "initialValue": {
+                                        "arguments": [
+                                            {
+                                                "hexValue": "4d616a756d646572",
+                                                "id": 28,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": true,
+                                                "kind": "string",
+                                                "lValueRequested": false,
+                                                "nodeType": "Literal",
+                                                "src": "335:10:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_stringliteral_38f5824374592718e37114989002dfeb3d981e23fb85775edf5603c22fa5b6cf",
+                                                    "typeString": "literal_string \"Majumder\""
+                                                },
+                                                "value": "Majumder"
+                                            },
+                                            {
+                                                "hexValue": "307831374636414438456639383232393735373943323033303639433144626646453433343863333732",
+                                                "id": 29,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": true,
+                                                "kind": "number",
+                                                "lValueRequested": false,
+                                                "nodeType": "Literal",
+                                                "src": "352:42:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_address",
+                                                    "typeString": "address"
+                                                },
+                                                "value": "0x17F6AD8Ef982297579C203069C1DbfFE4348c372"
+                                            },
+                                            {
+                                                "hexValue": "3231",
+                                                "id": 30,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": true,
+                                                "kind": "number",
+                                                "lValueRequested": false,
+                                                "nodeType": "Literal",
+                                                "src": "401:2:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_rational_21_by_1",
+                                                    "typeString": "int_const 21"
+                                                },
+                                                "value": "21"
+                                            }
+                                        ],
+                                        "expression": {
+                                            "argumentTypes": [
+                                                {
+                                                    "typeIdentifier": "t_stringliteral_38f5824374592718e37114989002dfeb3d981e23fb85775edf5603c22fa5b6cf",
+                                                    "typeString": "literal_string \"Majumder\""
+                                                },
+                                                {
+                                                    "typeIdentifier": "t_address",
+                                                    "typeString": "address"
+                                                },
+                                                {
+                                                    "typeIdentifier": "t_rational_21_by_1",
+                                                    "typeString": "int_const 21"
+                                                }
+                                            ],
+                                            "id": 27,
+                                            "name": "Emp",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 8,
+                                            "src": "324:3:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_type$_t_struct$_Emp_$8_storage_ptr_$",
+                                                "typeString": "type(struct Emp storage pointer)"
+                                            }
+                                        },
+                                        "id": 31,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": true,
+                                        "kind": "structConstructorCall",
+                                        "lValueRequested": false,
+                                        "nameLocations": [
+                                            "329:4:0",
+                                            "347:3:0",
+                                            "396:3:0"
+                                        ],
+                                        "names": [
+                                            "name",
+                                            "acc",
+                                            "age"
+                                        ],
+                                        "nodeType": "FunctionCall",
+                                        "src": "324:81:0",
+                                        "tryCall": false,
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_struct$_Emp_$8_memory_ptr",
+                                            "typeString": "struct Emp memory"
+                                        }
+                                    },
+                                    "nodeType": "VariableDeclarationStatement",
+                                    "src": "306:99:0"
+                                },
+                                {
+                                    "assignments": [
+                                        35
+                                    ],
+                                    "declarations": [
+                                        {
+                                            "constant": false,
+                                            "id": 35,
+                                            "mutability": "mutable",
+                                            "name": "emp3",
+                                            "nameLocation": "427:4:0",
+                                            "nodeType": "VariableDeclaration",
+                                            "scope": 74,
+                                            "src": "416:15:0",
+                                            "stateVariable": false,
+                                            "storageLocation": "memory",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_struct$_Emp_$8_memory_ptr",
+                                                "typeString": "struct Emp"
+                                            },
+                                            "typeName": {
+                                                "id": 34,
+                                                "nodeType": "UserDefinedTypeName",
+                                                "pathNode": {
+                                                    "id": 33,
+                                                    "name": "Emp",
+                                                    "nameLocations": [
+                                                        "416:3:0"
+                                                    ],
+                                                    "nodeType": "IdentifierPath",
+                                                    "referencedDeclaration": 8,
+                                                    "src": "416:3:0"
+                                                },
+                                                "referencedDeclaration": 8,
+                                                "src": "416:3:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_struct$_Emp_$8_storage_ptr",
+                                                    "typeString": "struct Emp"
+                                                }
+                                            },
+                                            "visibility": "internal"
+                                        }
+                                    ],
+                                    "id": 36,
+                                    "nodeType": "VariableDeclarationStatement",
+                                    "src": "416:15:0"
+                                },
+                                {
+                                    "expression": {
+                                        "id": 41,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "expression": {
+                                                "id": 37,
+                                                "name": "emp3",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 35,
+                                                "src": "442:4:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_struct$_Emp_$8_memory_ptr",
+                                                    "typeString": "struct Emp memory"
+                                                }
+                                            },
+                                            "id": 39,
+                                            "isConstant": false,
+                                            "isLValue": true,
+                                            "isPure": false,
+                                            "lValueRequested": true,
+                                            "memberLocation": "447:4:0",
+                                            "memberName": "name",
+                                            "nodeType": "MemberAccess",
+                                            "referencedDeclaration": 3,
+                                            "src": "442:9:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_string_memory_ptr",
+                                                "typeString": "string memory"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "hexValue": "4e61696e61",
+                                            "id": 40,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": true,
+                                            "kind": "string",
+                                            "lValueRequested": false,
+                                            "nodeType": "Literal",
+                                            "src": "454:7:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_stringliteral_209e1487679fdd08da48ec1fc87910e2ff5ee0b01c131c060152c93a1c18e9a5",
+                                                "typeString": "literal_string \"Naina\""
+                                            },
+                                            "value": "Naina"
+                                        },
+                                        "src": "442:19:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_memory_ptr",
+                                            "typeString": "string memory"
+                                        }
+                                    },
+                                    "id": 42,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "442:19:0"
+                                },
+                                {
+                                    "expression": {
+                                        "id": 47,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "expression": {
+                                                "id": 43,
+                                                "name": "emp3",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 35,
+                                                "src": "472:4:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_struct$_Emp_$8_memory_ptr",
+                                                    "typeString": "struct Emp memory"
+                                                }
+                                            },
+                                            "id": 45,
+                                            "isConstant": false,
+                                            "isLValue": true,
+                                            "isPure": false,
+                                            "lValueRequested": true,
+                                            "memberLocation": "477:3:0",
+                                            "memberName": "age",
+                                            "nodeType": "MemberAccess",
+                                            "referencedDeclaration": 5,
+                                            "src": "472:8:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_uint256",
+                                                "typeString": "uint256"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "hexValue": "3331",
+                                            "id": 46,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": true,
+                                            "kind": "number",
+                                            "lValueRequested": false,
+                                            "nodeType": "Literal",
+                                            "src": "483:2:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_rational_31_by_1",
+                                                "typeString": "int_const 31"
+                                            },
+                                            "value": "31"
+                                        },
+                                        "src": "472:13:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "id": 48,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "472:13:0"
+                                },
+                                {
+                                    "expression": {
+                                        "id": 54,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "expression": {
+                                                "id": 49,
+                                                "name": "emp3",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 35,
+                                                "src": "496:4:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_struct$_Emp_$8_memory_ptr",
+                                                    "typeString": "struct Emp memory"
+                                                }
+                                            },
+                                            "id": 51,
+                                            "isConstant": false,
+                                            "isLValue": true,
+                                            "isPure": false,
+                                            "lValueRequested": true,
+                                            "memberLocation": "501:3:0",
+                                            "memberName": "acc",
+                                            "nodeType": "MemberAccess",
+                                            "referencedDeclaration": 7,
+                                            "src": "496:8:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_address",
+                                                "typeString": "address"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "expression": {
+                                                "id": 52,
+                                                "name": "msg",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 4294967281,
+                                                "src": "507:3:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_magic_message",
+                                                    "typeString": "msg"
+                                                }
+                                            },
+                                            "id": 53,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": false,
+                                            "lValueRequested": false,
+                                            "memberLocation": "511:6:0",
+                                            "memberName": "sender",
+                                            "nodeType": "MemberAccess",
+                                            "src": "507:10:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_address",
+                                                "typeString": "address"
+                                            }
+                                        },
+                                        "src": "496:21:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_address",
+                                            "typeString": "address"
+                                        }
+                                    },
+                                    "id": 55,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "496:21:0"
+                                },
+                                {
+                                    "expression": {
+                                        "arguments": [
+                                            {
+                                                "id": 59,
+                                                "name": "emp1",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 17,
+                                                "src": "539:4:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_struct$_Emp_$8_memory_ptr",
+                                                    "typeString": "struct Emp memory"
+                                                }
+                                            }
+                                        ],
+                                        "expression": {
+                                            "argumentTypes": [
+                                                {
+                                                    "typeIdentifier": "t_struct$_Emp_$8_memory_ptr",
+                                                    "typeString": "struct Emp memory"
+                                                }
+                                            ],
+                                            "expression": {
+                                                "id": 56,
+                                                "name": "emp",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 12,
+                                                "src": "530:3:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_array$_t_struct$_Emp_$8_storage_$dyn_storage",
+                                                    "typeString": "struct Emp storage ref[] storage ref"
+                                                }
+                                            },
+                                            "id": 58,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": false,
+                                            "lValueRequested": false,
+                                            "memberLocation": "534:4:0",
+                                            "memberName": "push",
+                                            "nodeType": "MemberAccess",
+                                            "src": "530:8:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_struct$_Emp_$8_storage_$dyn_storage_ptr_$_t_struct$_Emp_$8_storage_$returns$__$bound_to$_t_array$_t_struct$_Emp_$8_storage_$dyn_storage_ptr_$",
+                                                "typeString": "function (struct Emp storage ref[] storage pointer,struct Emp storage ref)"
+                                            }
+                                        },
+                                        "id": 60,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "kind": "functionCall",
+                                        "lValueRequested": false,
+                                        "nameLocations": [],
+                                        "names": [],
+                                        "nodeType": "FunctionCall",
+                                        "src": "530:14:0",
+                                        "tryCall": false,
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_tuple$__$",
+                                            "typeString": "tuple()"
+                                        }
+                                    },
+                                    "id": 61,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "530:14:0"
+                                },
+                                {
+                                    "expression": {
+                                        "arguments": [
+                                            {
+                                                "id": 65,
+                                                "name": "emp2",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 26,
+                                                "src": "564:4:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_struct$_Emp_$8_memory_ptr",
+                                                    "typeString": "struct Emp memory"
+                                                }
+                                            }
+                                        ],
+                                        "expression": {
+                                            "argumentTypes": [
+                                                {
+                                                    "typeIdentifier": "t_struct$_Emp_$8_memory_ptr",
+                                                    "typeString": "struct Emp memory"
+                                                }
+                                            ],
+                                            "expression": {
+                                                "id": 62,
+                                                "name": "emp",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 12,
+                                                "src": "555:3:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_array$_t_struct$_Emp_$8_storage_$dyn_storage",
+                                                    "typeString": "struct Emp storage ref[] storage ref"
+                                                }
+                                            },
+                                            "id": 64,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": false,
+                                            "lValueRequested": false,
+                                            "memberLocation": "559:4:0",
+                                            "memberName": "push",
+                                            "nodeType": "MemberAccess",
+                                            "src": "555:8:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_struct$_Emp_$8_storage_$dyn_storage_ptr_$_t_struct$_Emp_$8_storage_$returns$__$bound_to$_t_array$_t_struct$_Emp_$8_storage_$dyn_storage_ptr_$",
+                                                "typeString": "function (struct Emp storage ref[] storage pointer,struct Emp storage ref)"
+                                            }
+                                        },
+                                        "id": 66,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "kind": "functionCall",
+                                        "lValueRequested": false,
+                                        "nameLocations": [],
+                                        "names": [],
+                                        "nodeType": "FunctionCall",
+                                        "src": "555:14:0",
+                                        "tryCall": false,
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_tuple$__$",
+                                            "typeString": "tuple()"
+                                        }
+                                    },
+                                    "id": 67,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "555:14:0"
+                                },
+                                {
+                                    "expression": {
+                                        "arguments": [
+                                            {
+                                                "id": 71,
+                                                "name": "emp3",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 35,
+                                                "src": "589:4:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_struct$_Emp_$8_memory_ptr",
+                                                    "typeString": "struct Emp memory"
+                                                }
+                                            }
+                                        ],
+                                        "expression": {
+                                            "argumentTypes": [
+                                                {
+                                                    "typeIdentifier": "t_struct$_Emp_$8_memory_ptr",
+                                                    "typeString": "struct Emp memory"
+                                                }
+                                            ],
+                                            "expression": {
+                                                "id": 68,
+                                                "name": "emp",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 12,
+                                                "src": "580:3:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_array$_t_struct$_Emp_$8_storage_$dyn_storage",
+                                                    "typeString": "struct Emp storage ref[] storage ref"
+                                                }
+                                            },
+                                            "id": 70,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": false,
+                                            "lValueRequested": false,
+                                            "memberLocation": "584:4:0",
+                                            "memberName": "push",
+                                            "nodeType": "MemberAccess",
+                                            "src": "580:8:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_struct$_Emp_$8_storage_$dyn_storage_ptr_$_t_struct$_Emp_$8_storage_$returns$__$bound_to$_t_array$_t_struct$_Emp_$8_storage_$dyn_storage_ptr_$",
+                                                "typeString": "function (struct Emp storage ref[] storage pointer,struct Emp storage ref)"
+                                            }
+                                        },
+                                        "id": 72,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "kind": "functionCall",
+                                        "lValueRequested": false,
+                                        "nameLocations": [],
+                                        "names": [],
+                                        "nodeType": "FunctionCall",
+                                        "src": "580:14:0",
+                                        "tryCall": false,
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_tuple$__$",
+                                            "typeString": "tuple()"
+                                        }
+                                    },
+                                    "id": 73,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "580:14:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "5ec027a2",
+                        "id": 75,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "setEmp",
+                        "nameLocation": "190:6:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 13,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "196:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 14,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "205:0:0"
+                        },
+                        "scope": 76,
+                        "src": "181:421:0",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 127,
+                "src": "136:469:0",
+                "usedErrors": []
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "forConstructor",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 126,
+                "linearizedBaseContracts": [
+                    126
+                ],
+                "name": "forConstructor",
+                "nameLocation": "616:14:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "functionSelector": "09993dcc",
+                        "id": 79,
+                        "mutability": "mutable",
+                        "name": "emp0",
+                        "nameLocation": "648:4:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 126,
+                        "src": "637:15:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_Emp_$8_storage",
+                            "typeString": "struct Emp"
+                        },
+                        "typeName": {
+                            "id": 78,
+                            "nodeType": "UserDefinedTypeName",
+                            "pathNode": {
+                                "id": 77,
+                                "name": "Emp",
+                                "nameLocations": [
+                                    "637:3:0"
+                                ],
+                                "nodeType": "IdentifierPath",
+                                "referencedDeclaration": 8,
+                                "src": "637:3:0"
+                            },
+                            "referencedDeclaration": 8,
+                            "src": "637:3:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_struct$_Emp_$8_storage_ptr",
+                                "typeString": "struct Emp"
+                            }
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 106,
+                            "nodeType": "Block",
+                            "src": "713:86:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 92,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "expression": {
+                                                "id": 88,
+                                                "name": "emp0",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 79,
+                                                "src": "724:4:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_struct$_Emp_$8_storage",
+                                                    "typeString": "struct Emp storage ref"
+                                                }
+                                            },
+                                            "id": 90,
+                                            "isConstant": false,
+                                            "isLValue": true,
+                                            "isPure": false,
+                                            "lValueRequested": true,
+                                            "memberLocation": "729:4:0",
+                                            "memberName": "name",
+                                            "nodeType": "MemberAccess",
+                                            "referencedDeclaration": 3,
+                                            "src": "724:9:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_string_storage",
+                                                "typeString": "string storage ref"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "id": 91,
+                                            "name": "name",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 81,
+                                            "src": "736:4:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_string_memory_ptr",
+                                                "typeString": "string memory"
+                                            }
+                                        },
+                                        "src": "724:16:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage",
+                                            "typeString": "string storage ref"
+                                        }
+                                    },
+                                    "id": 93,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "724:16:0"
+                                },
+                                {
+                                    "expression": {
+                                        "id": 98,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "expression": {
+                                                "id": 94,
+                                                "name": "emp0",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 79,
+                                                "src": "752:4:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_struct$_Emp_$8_storage",
+                                                    "typeString": "struct Emp storage ref"
+                                                }
+                                            },
+                                            "id": 96,
+                                            "isConstant": false,
+                                            "isLValue": true,
+                                            "isPure": false,
+                                            "lValueRequested": true,
+                                            "memberLocation": "757:3:0",
+                                            "memberName": "age",
+                                            "nodeType": "MemberAccess",
+                                            "referencedDeclaration": 5,
+                                            "src": "752:8:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_uint256",
+                                                "typeString": "uint256"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "id": 97,
+                                            "name": "age",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 83,
+                                            "src": "763:3:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_uint256",
+                                                "typeString": "uint256"
+                                            }
+                                        },
+                                        "src": "752:14:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "id": 99,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "752:14:0"
+                                },
+                                {
+                                    "expression": {
+                                        "id": 104,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "expression": {
+                                                "id": 100,
+                                                "name": "emp0",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 79,
+                                                "src": "777:4:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_struct$_Emp_$8_storage",
+                                                    "typeString": "struct Emp storage ref"
+                                                }
+                                            },
+                                            "id": 102,
+                                            "isConstant": false,
+                                            "isLValue": true,
+                                            "isPure": false,
+                                            "lValueRequested": true,
+                                            "memberLocation": "782:3:0",
+                                            "memberName": "acc",
+                                            "nodeType": "MemberAccess",
+                                            "referencedDeclaration": 7,
+                                            "src": "777:8:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_address",
+                                                "typeString": "address"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "id": 103,
+                                            "name": "acc",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 85,
+                                            "src": "788:3:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_address",
+                                                "typeString": "address"
+                                            }
+                                        },
+                                        "src": "777:14:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_address",
+                                            "typeString": "address"
+                                        }
+                                    },
+                                    "id": 105,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "777:14:0"
+                                }
+                            ]
+                        },
+                        "id": 107,
+                        "implemented": true,
+                        "kind": "constructor",
+                        "modifiers": [],
+                        "name": "",
+                        "nameLocation": "-1:-1:-1",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 86,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 81,
+                                    "mutability": "mutable",
+                                    "name": "name",
+                                    "nameLocation": "685:4:0",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 107,
+                                    "src": "671:18:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "memory",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_memory_ptr",
+                                        "typeString": "string"
+                                    },
+                                    "typeName": {
+                                        "id": 80,
+                                        "name": "string",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "671:6:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage_ptr",
+                                            "typeString": "string"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                },
+                                {
+                                    "constant": false,
+                                    "id": 83,
+                                    "mutability": "mutable",
+                                    "name": "age",
+                                    "nameLocation": "696:3:0",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 107,
+                                    "src": "691:8:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                    },
+                                    "typeName": {
+                                        "id": 82,
+                                        "name": "uint",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "691:4:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                },
+                                {
+                                    "constant": false,
+                                    "id": 85,
+                                    "mutability": "mutable",
+                                    "name": "acc",
+                                    "nameLocation": "709:3:0",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 107,
+                                    "src": "701:11:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_address",
+                                        "typeString": "address"
+                                    },
+                                    "typeName": {
+                                        "id": 84,
+                                        "name": "address",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "701:7:0",
+                                        "stateMutability": "nonpayable",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_address",
+                                            "typeString": "address"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "670:43:0"
+                        },
+                        "returnParameters": {
+                            "id": 87,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "713:0:0"
+                        },
+                        "scope": 126,
+                        "src": "659:140:0",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 124,
+                            "nodeType": "Block",
+                            "src": "833:93:0",
+                            "statements": [
+                                {
+                                    "assignments": [
+                                        112
+                                    ],
+                                    "declarations": [
+                                        {
+                                            "constant": false,
+                                            "id": 112,
+                                            "mutability": "mutable",
+                                            "name": "emp_temp",
+                                            "nameLocation": "855:8:0",
+                                            "nodeType": "VariableDeclaration",
+                                            "scope": 124,
+                                            "src": "844:19:0",
+                                            "stateVariable": false,
+                                            "storageLocation": "memory",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_struct$_Emp_$8_memory_ptr",
+                                                "typeString": "struct Emp"
+                                            },
+                                            "typeName": {
+                                                "id": 111,
+                                                "nodeType": "UserDefinedTypeName",
+                                                "pathNode": {
+                                                    "id": 110,
+                                                    "name": "Emp",
+                                                    "nameLocations": [
+                                                        "844:3:0"
+                                                    ],
+                                                    "nodeType": "IdentifierPath",
+                                                    "referencedDeclaration": 8,
+                                                    "src": "844:3:0"
+                                                },
+                                                "referencedDeclaration": 8,
+                                                "src": "844:3:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_struct$_Emp_$8_storage_ptr",
+                                                    "typeString": "struct Emp"
+                                                }
+                                            },
+                                            "visibility": "internal"
+                                        }
+                                    ],
+                                    "id": 113,
+                                    "nodeType": "VariableDeclarationStatement",
+                                    "src": "844:19:0"
+                                },
+                                {
+                                    "expression": {
+                                        "id": 116,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "id": 114,
+                                            "name": "emp_temp",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 112,
+                                            "src": "874:8:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_struct$_Emp_$8_memory_ptr",
+                                                "typeString": "struct Emp memory"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "id": 115,
+                                            "name": "emp0",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 79,
+                                            "src": "885:4:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_struct$_Emp_$8_storage",
+                                                "typeString": "struct Emp storage ref"
+                                            }
+                                        },
+                                        "src": "874:15:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_struct$_Emp_$8_memory_ptr",
+                                            "typeString": "struct Emp memory"
+                                        }
+                                    },
+                                    "id": 117,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "874:15:0"
+                                },
+                                {
+                                    "expression": {
+                                        "id": 122,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "expression": {
+                                                "id": 118,
+                                                "name": "emp0",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 79,
+                                                "src": "900:4:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_struct$_Emp_$8_storage",
+                                                    "typeString": "struct Emp storage ref"
+                                                }
+                                            },
+                                            "id": 120,
+                                            "isConstant": false,
+                                            "isLValue": true,
+                                            "isPure": false,
+                                            "lValueRequested": true,
+                                            "memberLocation": "905:4:0",
+                                            "memberName": "name",
+                                            "nodeType": "MemberAccess",
+                                            "referencedDeclaration": 3,
+                                            "src": "900:9:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_string_storage",
+                                                "typeString": "string storage ref"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "hexValue": "546f7269",
+                                            "id": 121,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": true,
+                                            "kind": "string",
+                                            "lValueRequested": false,
+                                            "nodeType": "Literal",
+                                            "src": "912:6:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_stringliteral_e3c3276a7cfa357d370ad7e15c597d9d6f9000915b885504a46153ceccd8a739",
+                                                "typeString": "literal_string \"Tori\""
+                                            },
+                                            "value": "Tori"
+                                        },
+                                        "src": "900:18:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage",
+                                            "typeString": "string storage ref"
+                                        }
+                                    },
+                                    "id": 123,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "900:18:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "2bbb14d7",
+                        "id": 125,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "updateEmp",
+                        "nameLocation": "815:9:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 108,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "824:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 109,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "833:0:0"
+                        },
+                        "scope": 126,
+                        "src": "806:120:0",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 127,
+                "src": "607:322:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "39:890:0"
+    },
+    "functionHashes": {
+        "emp0()": "09993dcc",
+        "updateEmp()": "2bbb14d7"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "212200",
+            "executionCost": "infinite",
+            "totalCost": "infinite"
+        },
+        "external": {
+            "emp0()": "infinite",
+            "updateEmp()": "infinite"
+        }
+    }
+}
