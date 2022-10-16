@@ -1,0 +1,437 @@
+{
+    "contractName": "B",
+    "abi": [
+        {
+            "inputs": [],
+            "name": "n",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "pure",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"n\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"d:/Blockchain Development/Solidity/intro_to_solidity/inheritance.sol\":\"B\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"d:/Blockchain Development/Solidity/intro_to_solidity/inheritance.sol\":{\"keccak256\":\"0x704b0aaf3fc84e688386934414e75364a3d122d3c8d1cf86b43412a0babd9430\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://c2ac9e30ffeb805f34ea8699f72334a144574e267d5160d96a6489fd7678a116\",\"dweb:/ipfs/QmRXPQTLKiac6CuEidJrhDzvCAa7d4UE6oNa5fnhfB4oCZ\"]}},\"version\":1}",
+    "bytecode": "608060405234801561001057600080fd5b5060e18061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80632e52d60614602d575b600080fd5b6040805180820182526009815268249030b69034b7102160b91b6020820152905160569190605f565b60405180910390f35b600060208083528351808285015260005b81811015608a578581018301518582016040015282016070565b506000604082860101526040601f19601f830116850101925050509291505056fea264697066735822122060173d6972cd431e49d6f32bc91ba896a94d57646cf598d6850b6b9be1470c2764736f6c63430008110033",
+    "deployedBytecode": "6080604052348015600f57600080fd5b506004361060285760003560e01c80632e52d60614602d575b600080fd5b6040805180820182526009815268249030b69034b7102160b91b6020820152905160569190605f565b60405180910390f35b600060208083528351808285015260005b81811015608a578581018301518582016040015282016070565b506000604082860101526040601f19601f830116850101925050509291505056fea264697066735822122060173d6972cd431e49d6f32bc91ba896a94d57646cf598d6850b6b9be1470c2764736f6c63430008110033",
+    "sourceMap": "181:126:0:-:0;;;;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "181:126:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;203:101;278:18;;;;;;;;;;;-1:-1:-1;;;278:18:0;;;;203:101;;;;278:18;203:101;:::i;:::-;;;;;;;;14:548:1;126:4;155:2;184;173:9;166:21;216:6;210:13;259:6;254:2;243:9;239:18;232:34;284:1;294:140;308:6;305:1;302:13;294:140;;;403:14;;;399:23;;393:30;369:17;;;388:2;365:26;358:66;323:10;;294:140;;;298:3;483:1;478:2;469:6;458:9;454:22;450:31;443:42;553:2;546;542:7;537:2;529:6;525:15;521:29;510:9;506:45;502:54;494:62;;;;14:548;;;;:::o",
+    "sourcePath": "d:/Blockchain Development/Solidity/intro_to_solidity/inheritance.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.17+commit.8df45f5f"
+    },
+    "ast": {
+        "absolutePath": "d:/Blockchain Development/Solidity/intro_to_solidity/inheritance.sol",
+        "exportedSymbols": {
+            "A": [
+                10
+            ],
+            "B": [
+                22
+            ],
+            "C": [
+                34
+            ]
+        },
+        "id": 35,
+        "license": "GPL-3.0",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    ">=",
+                    "0.4",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "39:24:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "A",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 10,
+                "linearizedBaseContracts": [
+                    10
+                ],
+                "name": "A",
+                "nameLocation": "76:1:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "body": {
+                            "id": 8,
+                            "nodeType": "Block",
+                            "src": "139:37:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "hexValue": "4920616d20696e2041",
+                                        "id": 6,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": true,
+                                        "kind": "string",
+                                        "lValueRequested": false,
+                                        "nodeType": "Literal",
+                                        "src": "157:11:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_stringliteral_7ec9373a781547f1f965ad67d34aa7d4b3572efff6aa6693b5c5c55c7299ea81",
+                                            "typeString": "literal_string \"I am in A\""
+                                        },
+                                        "value": "I am in A"
+                                    },
+                                    "functionReturnParameters": 5,
+                                    "id": 7,
+                                    "nodeType": "Return",
+                                    "src": "150:18:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "2e52d606",
+                        "id": 9,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "n",
+                        "nameLocation": "93:1:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 2,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "94:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 5,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 4,
+                                    "mutability": "mutable",
+                                    "name": "",
+                                    "nameLocation": "-1:-1:-1",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 9,
+                                    "src": "125:13:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "memory",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_memory_ptr",
+                                        "typeString": "string"
+                                    },
+                                    "typeName": {
+                                        "id": 3,
+                                        "name": "string",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "125:6:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage_ptr",
+                                            "typeString": "string"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "124:15:0"
+                        },
+                        "scope": 10,
+                        "src": "84:92:0",
+                        "stateMutability": "pure",
+                        "virtual": true,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 35,
+                "src": "67:112:0",
+                "usedErrors": []
+            },
+            {
+                "abstract": false,
+                "baseContracts": [
+                    {
+                        "baseName": {
+                            "id": 11,
+                            "name": "A",
+                            "nameLocations": [
+                                "195:1:0"
+                            ],
+                            "nodeType": "IdentifierPath",
+                            "referencedDeclaration": 10,
+                            "src": "195:1:0"
+                        },
+                        "id": 12,
+                        "nodeType": "InheritanceSpecifier",
+                        "src": "195:1:0"
+                    }
+                ],
+                "canonicalName": "B",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 22,
+                "linearizedBaseContracts": [
+                    22,
+                    10
+                ],
+                "name": "B",
+                "nameLocation": "190:1:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "baseFunctions": [
+                            9
+                        ],
+                        "body": {
+                            "id": 20,
+                            "nodeType": "Block",
+                            "src": "267:37:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "hexValue": "4920616d20696e2042",
+                                        "id": 18,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": true,
+                                        "kind": "string",
+                                        "lValueRequested": false,
+                                        "nodeType": "Literal",
+                                        "src": "285:11:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_stringliteral_388b3443402db6f07d75ca13274551f5d9afc895eebfe202334588aa0a2fc2c5",
+                                            "typeString": "literal_string \"I am in B\""
+                                        },
+                                        "value": "I am in B"
+                                    },
+                                    "functionReturnParameters": 17,
+                                    "id": 19,
+                                    "nodeType": "Return",
+                                    "src": "278:18:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "2e52d606",
+                        "id": 21,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "n",
+                        "nameLocation": "212:1:0",
+                        "nodeType": "FunctionDefinition",
+                        "overrides": {
+                            "id": 14,
+                            "nodeType": "OverrideSpecifier",
+                            "overrides": [],
+                            "src": "236:8:0"
+                        },
+                        "parameters": {
+                            "id": 13,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "213:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 17,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 16,
+                                    "mutability": "mutable",
+                                    "name": "",
+                                    "nameLocation": "-1:-1:-1",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 21,
+                                    "src": "253:13:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "memory",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_memory_ptr",
+                                        "typeString": "string"
+                                    },
+                                    "typeName": {
+                                        "id": 15,
+                                        "name": "string",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "253:6:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage_ptr",
+                                            "typeString": "string"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "252:15:0"
+                        },
+                        "scope": 22,
+                        "src": "203:101:0",
+                        "stateMutability": "pure",
+                        "virtual": true,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 35,
+                "src": "181:126:0",
+                "usedErrors": []
+            },
+            {
+                "abstract": false,
+                "baseContracts": [
+                    {
+                        "baseName": {
+                            "id": 23,
+                            "name": "B",
+                            "nameLocations": [
+                                "324:1:0"
+                            ],
+                            "nodeType": "IdentifierPath",
+                            "referencedDeclaration": 22,
+                            "src": "324:1:0"
+                        },
+                        "id": 24,
+                        "nodeType": "InheritanceSpecifier",
+                        "src": "324:1:0"
+                    }
+                ],
+                "canonicalName": "C",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 34,
+                "linearizedBaseContracts": [
+                    34,
+                    22,
+                    10
+                ],
+                "name": "C",
+                "nameLocation": "318:1:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "baseFunctions": [
+                            21
+                        ],
+                        "body": {
+                            "id": 32,
+                            "nodeType": "Block",
+                            "src": "388:37:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "hexValue": "4920616d20696e2043",
+                                        "id": 30,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": true,
+                                        "kind": "string",
+                                        "lValueRequested": false,
+                                        "nodeType": "Literal",
+                                        "src": "406:11:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_stringliteral_766c3eed363cde306bcd2ca91dc75a6f2b015195bf21c9189d9ebe51ba93a149",
+                                            "typeString": "literal_string \"I am in C\""
+                                        },
+                                        "value": "I am in C"
+                                    },
+                                    "functionReturnParameters": 29,
+                                    "id": 31,
+                                    "nodeType": "Return",
+                                    "src": "399:18:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "2e52d606",
+                        "id": 33,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "n",
+                        "nameLocation": "341:1:0",
+                        "nodeType": "FunctionDefinition",
+                        "overrides": {
+                            "id": 26,
+                            "nodeType": "OverrideSpecifier",
+                            "overrides": [],
+                            "src": "357:8:0"
+                        },
+                        "parameters": {
+                            "id": 25,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "342:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 29,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 28,
+                                    "mutability": "mutable",
+                                    "name": "",
+                                    "nameLocation": "-1:-1:-1",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 33,
+                                    "src": "374:13:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "memory",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_memory_ptr",
+                                        "typeString": "string"
+                                    },
+                                    "typeName": {
+                                        "id": 27,
+                                        "name": "string",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "374:6:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage_ptr",
+                                            "typeString": "string"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "373:15:0"
+                        },
+                        "scope": 34,
+                        "src": "332:93:0",
+                        "stateMutability": "pure",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 35,
+                "src": "309:119:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "39:389:0"
+    },
+    "functionHashes": {
+        "n()": "2e52d606"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "45000",
+            "executionCost": "99",
+            "totalCost": "45099"
+        },
+        "external": {
+            "n()": "infinite"
+        }
+    }
+}
