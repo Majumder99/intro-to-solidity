@@ -11,8 +11,9 @@ struct Emp{
 contract newEmp{
     Emp[] public emp;
     function setEmp() public{
-        Emp memory emp1 = Emp("Sourav", 24, 0x617F2E2fD72FD9D5503197092aC168c91465E7f2);
-        Emp memory emp2 = Emp({name: "Majumder", acc: 0x17F6AD8Ef982297579C203069C1DbfFE4348c372, age: 21});
+        Emp memory emp1 = Emp("Sourav", 24, 0x617F2E2fD72FD9D5503197092aC168c91465E7f2);//one wat
+        Emp memory emp2 = Emp({name: "Majumder", acc: 0x17F6AD8Ef982297579C203069C1DbfFE4348c372, age: 21});//second way
+        //third way
         Emp memory emp3;
         emp3.name = "Naina";
         emp3.age = 31;
