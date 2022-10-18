@@ -1,1 +1,1 @@
-[{"inputs":[],"name":"a","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"}]
+[{"anonymous":false,"inputs":[{"indexed":false,"internalType":"string","name":"name","type":"string"},{"indexed":false,"internalType":"uint256","name":"age","type":"uint256"}],"name":"func1","type":"event"},{"inputs":[],"name":"fun1","outputs":[],"stateMutability":"nonpayable","type":"function"}]
