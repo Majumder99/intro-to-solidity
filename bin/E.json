@@ -1,5 +1,5 @@
 {
-    "contractName": "B",
+    "contractName": "E",
     "abi": [
         {
             "inputs": [
@@ -7,10 +7,28 @@
                     "internalType": "uint256",
                     "name": "x",
                     "type": "uint256"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "y",
+                    "type": "uint256"
                 }
             ],
             "stateMutability": "nonpayable",
             "type": "constructor"
+        },
+        {
+            "inputs": [],
+            "name": "a",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
         },
         {
             "inputs": [],
@@ -26,11 +44,11 @@
             "type": "function"
         }
     ],
-    "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"x\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"b\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"d:/Blockchain Development/Solidity/intro_to_solidity/passingparameterstoconstructor.sol\":\"B\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"d:/Blockchain Development/Solidity/intro_to_solidity/passingparameterstoconstructor.sol\":{\"keccak256\":\"0x558741d8aef185b25ac883303b5ff74c265036a0fdaad1ce7fda7b65b811051d\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://1a3dcc6d708f853cb9375322a2169ea26a2dd97b55127210436d1ecf052745fc\",\"dweb:/ipfs/QmUZgeJ1xyXDJqEgySXRQmynDVY64phpW5XKrv8YnRcLSb\"]}},\"version\":1}",
-    "bytecode": "608060405234801561001057600080fd5b506040516100db3803806100db83398101604081905261002f91610037565b600055610050565b60006020828403121561004957600080fd5b5051919050565b607d8061005e6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80634df7e3d014602d575b600080fd5b603560005481565b60405190815260200160405180910390f3fea2646970667358221220c033d89319e2bf7fb7afb12993fe5e42d41e1c8349e333d91c69652dfc7721c364736f6c63430008110033",
-    "deployedBytecode": "6080604052348015600f57600080fd5b506004361060285760003560e01c80634df7e3d014602d575b600080fd5b603560005481565b60405190815260200160405180910390f3fea2646970667358221220c033d89319e2bf7fb7afb12993fe5e42d41e1c8349e333d91c69652dfc7721c364736f6c63430008110033",
-    "sourceMap": "152:84:0:-:0;;;190:43;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;220:1;:5;152:84;;14:184:1;84:6;137:2;125:9;116:7;112:23;108:32;105:52;;;153:1;150;143:12;105:52;-1:-1:-1;176:16:1;;14:184;-1:-1:-1;14:184:1:o;:::-;152:84:0;;;;;;",
-    "deployedSourceMap": "152:84:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;170:13;;;;;;;;;160:25:1;;;148:2;133:18;170:13:0;;;;;;",
+    "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"x\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"y\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"a\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"b\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"d:/Blockchain Development/Solidity/intro_to_solidity/passingparameterstoconstructor.sol\":\"E\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"d:/Blockchain Development/Solidity/intro_to_solidity/passingparameterstoconstructor.sol\":{\"keccak256\":\"0x558741d8aef185b25ac883303b5ff74c265036a0fdaad1ce7fda7b65b811051d\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://1a3dcc6d708f853cb9375322a2169ea26a2dd97b55127210436d1ecf052745fc\",\"dweb:/ipfs/QmUZgeJ1xyXDJqEgySXRQmynDVY64phpW5XKrv8YnRcLSb\"]}},\"version\":1}",
+    "bytecode": "608060405234801561001057600080fd5b506040516100fe3803806100fe83398101604081905261002f9161003d565b600091909155600155610061565b6000806040838503121561005057600080fd5b505080516020909101519092909150565b608f8061006f6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c80630dbe671f1460375780634df7e3d0146051575b600080fd5b603f60005481565b60405190815260200160405180910390f35b603f6001548156fea26469706673582212202147431d9f9f04633927c44e9dd13cabf10692b21ac31375191ee3ad225c47f764736f6c63430008110033",
+    "deployedBytecode": "6080604052348015600f57600080fd5b506004361060325760003560e01c80630dbe671f1460375780634df7e3d0146051575b600080fd5b603f60005481565b60405190815260200160405180910390f35b603f6001548156fea26469706673582212202147431d9f9f04633927c44e9dd13cabf10692b21ac31375191ee3ad225c47f764736f6c63430008110033",
+    "sourceMap": "331:82:0:-:0;;;356:54;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;134:1;:5;;;;220:1;:5;331:82;;14:245:1;93:6;101;154:2;142:9;133:7;129:23;125:32;122:52;;;170:1;167;160:12;122:52;-1:-1:-1;;193:16:1;;249:2;234:18;;;228:25;193:16;;228:25;;-1:-1:-1;14:245:1:o;:::-;331:82:0;;;;;;",
+    "deployedSourceMap": "331:82:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;84:13;;;;;;;;;160:25:1;;;148:2;133:18;84:13:0;;;;;;;170;;;;;",
     "sourcePath": "d:/Blockchain Development/Solidity/intro_to_solidity/passingparameterstoconstructor.sol",
     "compiler": {
         "name": "solc",
@@ -1002,16 +1020,18 @@
         "src": "39:450:0"
     },
     "functionHashes": {
+        "a()": "0dbe671f",
         "b()": "4df7e3d0"
     },
     "gasEstimates": {
         "creation": {
-            "codeDepositCost": "25000",
+            "codeDepositCost": "28600",
             "executionCost": "infinite",
             "totalCost": "infinite"
         },
         "external": {
-            "b()": "2261"
+            "a()": "2261",
+            "b()": "2283"
         }
     }
 }
